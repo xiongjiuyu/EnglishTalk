@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "English Talk",
+    "slug": "english-talk",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "ios": {
+      "bundleIdentifier": "com.englishtalk.personal",
+      "buildNumber": "2",
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.englishtalk.personal",
+      "versionCode": 2,
+      "allowBackup": false
+    },
+    "plugins": [
+      "expo-secure-store",
+      ["expo-speech-recognition", {
+        "microphonePermission": "English Talk 需要麦克风来转写你的口语练习。",
+        "speechRecognitionPermission": "English Talk 使用系统语音识别将你说的话转成文字。"
+      }]
+    ]
+  }
+}
